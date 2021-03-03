@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Senhor dos Anéis",
+        "tipo": "Ficção"
+    },
+    {
+        "id": 2,
+        "titulo": "Código Limpo",
+        "tipo": "Didático"
+    },
+    {
+        "id": 3,
+        "titulo": "Dom Casmurro",
+        "tipo": "Romance"
+    }
+]
