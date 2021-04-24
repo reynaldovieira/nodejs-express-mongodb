@@ -2,7 +2,6 @@ import express from "express";
 import livrosRoute from "./routes/livrosRoute.js";
 import livros from "./data/livros.json";
 import morgan from "morgan";
-import bodyParser from "body-parser";
 import path from "path";
 
 const PORTA = 3000;
@@ -18,7 +17,7 @@ server.use(morgan("tiny"));
 
 server.use("/static", express.static("public"));
 
-server.use(bodyParser.json());
+server.use(express.json());
 
 server.use(LIVROS_URL, livrosRoute);
 
